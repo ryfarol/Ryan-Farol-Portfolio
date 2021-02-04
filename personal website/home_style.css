@@ -1,0 +1,155 @@
+/* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar icon style */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* navbar hover style */
+.navbar a:hover {
+  background-color: green;
+}
+
+/* Current navbar link */
+.navactive {
+  background-color: green;
+}
+
+/* shopping cart navbar */
+.navbar-right {
+  float:right;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow */
+.slideshow {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.Slides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Forward button is set to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* when dot is hovered, the color of the background for better visibility */
+.prev:hover, .next:hover {
+  background-color: green;
+}
+
+/* The dot indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: black;
+}
+
+/* slide animation */
+.slide {
+  -webkit-animation-name: slide 1s forwards;
+  -webkit-animation-delay: 1s;
+  animation-name: slide 1s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0;}
+}
+
+@keyframes slide {
+  100% { left: 0;}
+}
+
+/* Style the testimonial with a grey background and add padding/margin */
+.intro {
+  font-family: Georgia;
+  border: 5px solid #ccc;
+  border-color: green;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+div.trademark {
+  font-family: Georgia;
+  text-align: center;
+}
+
+div.socials {
+  font-family: Georgia;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+
+/* Style for social icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect when entered */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Instagram and Facebook style */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background-color: #125688;
+  color: white;
+}

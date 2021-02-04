@@ -1,0 +1,165 @@
+/* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar icon style */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* navbar hover style */
+.navbar a:hover {
+  background-color: green;
+}
+
+/* Current navbar link */
+.navactive {
+  background-color: green;
+}
+
+/* shopping cart navbar */
+.navbar-right {
+  float:right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style input boxes */
+input[type=text], select, textarea {
+  font-family: Georgia;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  overflow: scroll;
+}
+
+/* Style submit button */
+input[type=submit] {
+  font-family: Georgia;
+  background-color: green;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Style hover submit button */
+input[type=submit]:hover {
+  background-color: lightgreen;
+}
+
+/* Style the contact section */
+.contact {
+  font-family: Georgia;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Style the contact section */
+.contact-card {
+  font-family: Georgia;
+}
+
+/* Create two columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the testimonial with a grey background and add padding/margin */
+.testimonial {
+  font-family: Georgia;
+  border: 5px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Clear floats after testimonial */
+.testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images to the left and shape it to to a circle*/
+.testimonial img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* style the font of the words within the testimonial */
+.testimonial span {
+  font-size: 20px;
+  color: green;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.trademark {
+  font-family: Georgia;
+  text-align: center;
+}
+
+.socials {
+  font-family: Georgia;
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+
+/* Style for social icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect when entered */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Instagram and Facebook style */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background-color: #125688;
+  color: white;
+}
+
+
