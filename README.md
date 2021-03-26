@@ -1,6 +1,6 @@
 # Ryan-Farol-Portfolio
 
-Hi! Welcome to Ryan Farol's portfolio. It contiains the following two projects:
+Hi! Welcome to Ryan Farol's portfolio. It contiains the following three projects:
 
 CS325 Algorithms Portfolio Project — Sudoku Solver
 - Created a sudoku solver function that uses a backtracking algorithm to solve the sudoku puzzle
