@@ -1,0 +1,127 @@
+/* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar icon style */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 1px solid #bbb;
+}
+
+/* navbar hover style */
+.navbar a:hover {
+  background-color: blue;
+}
+
+
+/* heading style */
+h1 {
+  font-family: Moncaco, monospace;
+}
+
+/* Style the pages */
+.pages {
+  font-family: Moncaco, monospace;
+  border: 5px solid #ccc;
+  border-color: blue;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+/*table styling*/
+table
+{
+	table-layout: auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+
+}
+
+th, td 
+{
+	border: 1px solid #787676;
+	text-align: left;
+	padding: 5px;
+}
+
+tr:nth-child(even) 
+{
+	background-color: #b2caf6;
+}
+
+/* button style */
+button {
+  width: 100%;
+  font-family: Moncaco, monospace;
+}
+
+/* input style */
+.input {
+  font-family: Moncaco, monospace;
+}
+
+/* table style */
+table {
+  font-family: Moncaco, monospace;
+  width: 100%;
+}
+
+/* filter style */
+#carInput {
+  font-family: Moncaco, monospace;
+  width: 50%;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid #ddd;
+}
+
+/* filter style */
+#carFeatInput {
+  font-family: Moncaco, monospace;
+  width: 50%;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid #ddd;
+}
+
+/* update button */
+#update {
+  width: 200px;
+  font-family: Moncaco, monospace;
+}
+
+/* select styles */
+select {
+  font-family: Moncaco, monospace;
+}
+
+/* update styles*/
+#update-customer {
+  font-family: Moncaco, monospace;
+}
+
+#update-car {
+  font-family: Moncaco, monospace;
+}
+
+#update-order {
+  font-family: Moncaco, monospace;
+}
+
+input[type=text] {
+  font-family: Moncaco, monospace;
+}
+
+input[type=submit] {
+  font-family: Moncaco, monospace;
+}
