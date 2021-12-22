@@ -1,10 +1,16 @@
 # Ryan-Farol-Portfolio
 
-Hi! Welcome to Ryan Farol's portfolio. It contiains the following three projects:
+Hi! Welcome to Ryan Farol's portfolio. It contiains the following four projects:
+
+CS493 Cloud Application Development Portfolio Project — REST API
+- Built a RESTful API consisting of a user entity and two non-user entities (boats and loads) using Google App Engine and Flask. Google OAuth 2.0 was used for authenticating the user.
+- Generated and performed API testing through Postman
+- Designed API documentation 
+- Used: Google App Engine, Flask, Python, Postman, Google Datastore, Google Oauth 2.0, HTML
 
 CS340 Databases Portfolio Project — Fullstack Database Website
 - Built a full stack website for a mock car dealership used specifically to store a database
-- Utilized Javascript to make allow users to make new entries and tables interactive with update and delete functions
+- Utilized Javascript to allow users to perform CRUD functionalities
 - Used: Node.JS, HTML/CSS, Express-Handlebars, Javascript, Heroku, MySQL
 - Link: https://db-auto.herokuapp.com/
 
@@ -20,9 +26,3 @@ CS361 Software Engineering I Portfolio Project — Wiki Search GUI
 - Primary keyword is used to find a Wikipedia page with the same title as the primary keyword
 - Outputted paragraph can also be downloaded as a CSV file
 - Used: Python, Tkinter, Python’s Wikipedia API Wrapper
-
-
-CS290 Web Development Portfolio Project — Personal Website
-- Built a static website for a demo plant shop for a personal friend that allows the user to view plants for sale. Checkout function was not implemented. 
-- Utilized Javascript to make an automatic rotating picture gallery
-- Used: Javascript, HTML/CSS
